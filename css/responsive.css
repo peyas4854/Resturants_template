@@ -1,0 +1,126 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .reservation-img {
+    text-align: center;
+    margin: 40px;
+}
+.social-link {
+    position: absolute;
+    top: 41%;
+    bottom: 0;
+    left: 76%;
+    right: 0;
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 176px;
+    /* display: inline-block; */
+    /* float: left; */
+}
+.social-link {
+    position: absolute;
+    top: 24%;
+    bottom: 0;
+    left: 84%;
+    right: 0;
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 176px;
+    /* display: inline-block; */
+    /* float: left; */
+}
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+.logo {
+    margin-left: 0px;
+    text-align: center;
+}
+.main-menu {
+    position: relative;
+}
+.social-link {
+    position: absolute;
+    top: 22%;
+    bottom: 0;
+    left: 89%;
+    /* right: 0; */
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 158px;
+    display: inline-block;
+    /* float: left; */
+}
+.reservation-img {
+    text-align: center;
+    margin: 40px;
+}
+
+ 
+    
+}
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    body{
+        background: scroll;
+
+    }
+    .logo {
+    margin-left: 0px;
+    text-align: center;
+}
+    .navbar-toggle{
+    float: none;
+}
+.header-text h2 {
+
+font-size: 50px;
+
+color: #f5f5f4;
+
+margin-top: 170px;
+
+z-index: -2;
+}
+  
+ .dish img {
+    
+    margin-left: -100px;
+}
+.reservation-img {
+    text-align: center;
+    margin: 40px;
+}
+.social-link {
+    position: absolute;
+    top: 2%;
+    bottom: 0;
+    left: 68%;
+    right: 0;
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 176px;
+    /* display: inline-block; */
+    /* float: left; */
+}
+.btn-filled {
+   
+    font-size: 14px;
+    
+}
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+   
+
+
+}

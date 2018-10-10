@@ -1,0 +1,438 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+ 
+
+ 
+}
+.all-item{
+  overflow: hidden;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Yeseva One', cursive;
+}
+
+
+
+
+
+
+/*
+-----------heder-area-------------
+*/
+
+.top-area{
+	position: relative;
+
+}
+  .top-area-bg{
+
+  	background-image: url(images/cover4.jpg);
+  	left: 0;
+  	top: 0;
+  
+    max-width: 100%
+  	height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+   
+  	
+
+  }
+   
+
+/*
+-----------menu area-------------
+*/
+.main-menu {
+    position: relative;
+}
+  .main-menu ul li{
+   
+    display: block;
+    padding-top: 20px;
+
+  }
+  
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ead234;
+    background-color: ;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+     font-family: 'Gentium Book Basic', serif; 
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+.social-link {
+    position: absolute;
+    top: 41%;
+    bottom: 0;
+    left: 68%;
+    right: 0;
+    text-align: center;
+    /* background-color: aliceblue; */
+    width: 176px;
+    /* display: inline-block; */
+    /* float: left; */
+}
+.social-link  a{
+  -webkit-transition-duration: 2s; 
+
+}
+
+.social-link i {
+
+    font-size: 22px;
+   
+    color: burlywood;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background-color: ;
+    border-radius: 26px;
+    
+}
+.social-link i:hover {
+    
+    color: gold ;
+   
+}
+
+/*
+----------sticky-area------
+*/
+.header-area {
+  position: relative;
+    width: 100%;
+   z-index: 99;
+    background-color:;
+}
+.is-sticky .header-area {
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.is-sticky .logo img {
+    height: 60px;
+    width: auto;
+    padding: 5px;
+}
+.is-sticky .main-menu ul li {
+    padding: 0px 0px;
+}
+
+
+.is-stick .social-link i {
+    position: absolute;
+    padding-top: 0px;
+   
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+  .header-text h2 {
+
+   
+    font-size: 90px;
+    color: #fff;
+    margin-top: 170px;
+    z-index: -2;
+  
+}
+  
+
+  .header-text img {
+    border-style: none;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    
+
+}
+
+.btn-filled {
+    background-color: #191919;
+    padding: 15px 50px;
+    font-size: 18px;
+    opacity: 0.8;
+    padding-bottom: 15px;
+    display: inline-block;
+    margin: 100px 15px;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    z-index: -1;
+}
+.btn-filled:hover {
+    text-decoration: none;
+    color: aqua;
+}
+.btn-filled-right{
+ background-color: #b5994c;
+    padding: 15px 50px;
+    font-size: 18px;
+    opacity: 0.8;
+    padding-bottom: 15px;
+    display: inline-block;
+    margin: 100px 15px;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.header-text a:hover {
+    color: azure;
+    text-decoration: none;
+    
+} 
+/*
+-----------about area-------------
+*/
+
+.about-area{
+  background-image: url(images/pattern.png) ;
+  text-align: center;
+  padding: 50px;
+}
+.about-area h2{
+    color: #cc9900;
+    font-size: 30px;
+   
+    margin-bottom: 20px;
+}
+.about-area p {
+    font-size: 16px;
+    padding: 30px 10px;
+    text-align: center;
+} 
+ 
+/*
+-----igredients  area -----
+*/
+
+
+
+.igredients{
+  background-image: url(images/ingedrian.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+  padding: 80px ;
+  
+ 
+
+}
+.igredients-text h2 {
+    color: #fff;
+   
+    font-size: 36px;
+   
+   
+   
+}
+.igredients-text p {
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 32px;
+}
+
+.igredients-text {
+position: relative;
+z-index: 1;
+padding:30px;
+
+}
+.igredients-text:after{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:  0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: black;
+  z-index: -1;
+  opacity: 0.7;
+ 
+  }
+   .igredients-text img {
+    border-style: none;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+
+
+
+/*
+----------food-menu area-----
+*/
+.food-menu {
+  position: relative;
+  z-index: -1;
+
+}
+
+.section-padding{
+  padding: 80px;
+}
+.food-menu,.reservation {
+  background-image: url(images/pattern.png);/* food-menu background image*/
+
+}
+.food-menu-title  h2  {
+  
+  color: #c89f2d;
+   
+    font-size: 36px;
+}
+.single-food-menu-item  h2 {
+  font-size: 20px;
+ 
+  margin-bottom: 10px;
+  
+  color: #c89f2d;
+
+}
+.single-food-menu-item  p{
+  margin-bottom: 35px;
+}
+
+.single-food-menu-item img{
+  width: 100%;
+}
+.single-food-menu-item span {
+  float: right;
+  color:#c89f2d;
+}
+.special-item {
+    border: 1px solid #d09900;
+    padding: 0px 5px;
+    position: relative;
+}
+.special-item:before {
+    position: absolute;
+    top: -25px;
+    left: 84%;
+    content: "special";
+    background-color: #d09900;
+    padding: 2px 7px;
+    right: 0px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*
+-----review area ----------
+*/
+
+.reviews{
+  background-image: url(images/guest3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 90px ;
+  background-attachment: fixed;
+
+ 
+
+}
+.review-text p,{
+  font-size: 25px;
+   font-family: 'Gentium Book Basic', serif; 
+
+}
+.down p{
+  font-size: 18px;
+}
+/*
+-----reservation----------
+*/
+
+.reservation-text{
+  text-align: center;
+}
+.reservation-text h2 {
+  font-size: 36px;
+   color: #cc9900;
+       margin-bottom: 18px; 
+   
+
+}
+
+.reservation-text p{
+  font-size: 16px;
+   font-family: 'Gentium Book Basic', serif; 
+
+}
+ .reservation-text span img {
+    border-style: none;
+    padding-bottom: 15px;
+}
+.title label {
+    color: #c9a131;
+    font-size: inherit;
+}
+.single-set {
+    padding: 10px;
+}
+.form-btn {
+    padding: 7px 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #c9a131;
+    color: #fff;
+}
+ .footer{
+  background-color: black;
+  color: #fff;
+
+}
+.footer-text h2 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.footer-text p {
+    font-size: 16px;
+    font-family: 'Gentium Book Basic', serif;
+    margin-top: 15px;
+    background-attachment: fixed;
+}
+.icon ul li i {
+      font-size: 22px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+
+
+
+
+  
+
